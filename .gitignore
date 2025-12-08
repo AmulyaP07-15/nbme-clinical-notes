@@ -1,7 +1,41 @@
-__pycache__/
-*.pyc
+# Data files (TOO LARGE FOR GITHUB)
+data/raw/
+data/processed/
+*.csv
+
+# Model files
+models/
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# Jupyter Notebook
 .ipynb_checkpoints/
-.env
-data/raw/*.csv
-models/*.pkl
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+nbme_ml/
+py38/
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
+
+# Logs
+*.log
+logs/
