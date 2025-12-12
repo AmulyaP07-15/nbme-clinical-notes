@@ -1,7 +1,4 @@
-# Data files (TOO LARGE FOR GITHUB)
-data/raw/
-data/processed/
-*.csv
+
 
 # Model files
 models/
